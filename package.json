@@ -1,0 +1,18 @@
+{
+  "name": "arbitrum-claim",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "clown444",
+  "license": "ISC",
+  "dependencies": {
+    "console-stamp": "^3.1.1",
+    "dotenv": "^16.0.3",
+    "web3": "^1.8.2"
+  }
+}
