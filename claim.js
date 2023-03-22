@@ -20,7 +20,7 @@ while (true) {
             
                 const tx = {
                     'from': wallet,
-                    'gas': await data.estimateGas({ from: wallet }),
+                    'gas': await data.estimateGas({ from: wallet }) * 2,
                     'maxFeePerGas': w3.utils.toWei(process.env.GAS_PRICE, 'Gwei'),
                     'maxPriorityFeePerGas': w3.utils.toWei(process.env.PRIORITY_GAS_PRICE, 'Gwei'),
                     'chainId': await w3.eth.getChainId(),
