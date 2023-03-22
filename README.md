@@ -20,6 +20,11 @@ All settings are in the .env file
 !!!!You need to insert addresses for receiving ARB in the exchange.js file.       
       
 ## Running
+Transfer launch       
 ```
 node index
+```
+Claim launch       
+```
+node claim
 ```
